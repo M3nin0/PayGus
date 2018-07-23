@@ -5,6 +5,9 @@ Projeto para facilita o controle dos valores gastos com transporte.
 ## Uso
 
 ```Python
+from paygus.models.calc import DayCalculator
+from paygus.models.time_space import Day, Month
+
 # Cria um objeto do calculador e passa como parâmetro a estratégia de calculo a ser aplicada nos calculos dos valores diários
 day_calculator = DayCalculator(lambda day: day.value * 2)
 
