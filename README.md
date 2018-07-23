@@ -1,8 +1,8 @@
-# PayGus
+# PayGus :bus: :oncoming_bus:
 
 Projeto para facilita o controle dos valores gastos com transporte.
 
-## Uso
+## Uso :round_pushpin:
 
 ```Python
 from paygus.models.calc import DayCalculator
