@@ -1,5 +1,9 @@
 class Day(object):
 	def __init__(self, day_number, value):
+		"""Construtor
+		:param: day_number (int): Número do dia no mês
+		:param: value (int): Valor gasto no dia
+		"""
 		self.__day_number = day_number
 		self.__value = value
 
@@ -13,6 +17,9 @@ class Day(object):
 
 class Month(object):
 	def __init__(self, month_number):
+		"""Construtor
+		:param: month_number (int): Número do mês criado
+		"""
 		self.__month_number = month_number
 		self.__days = []
 
